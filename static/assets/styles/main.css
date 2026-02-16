@@ -1,0 +1,98 @@
+h2{
+font-weight:bold;
+font-size: 30px;
+text-align: center;
+color: blue;
+}
+h3{
+font-weight:bold;
+font-size: 30px;
+text-align: center;
+color: brown;
+}
+.tab{
+font-weight:bold;
+font-size: 20px;
+color: orange;
+text-align: left;
+}
+h1{
+text-align: center;
+font-family: Algerian;
+}
+.bod{
+width: 50px;
+}
+ table{
+        width: 100%;
+        background-color: black;
+        color: white;
+        border-collapse: collapse;
+        }
+        td,th{
+        border: 1px solid white
+        }
+        th{
+        background-color: grey;
+        font-family: Algerian;
+        color: black;
+        font-size: 30px;
+        }
+.dat{
+text-decoration: underline;
+background-color: orange;
+padding: 20px;
+}
+.box{
+       display: inline-block;
+       width:100px;
+       height: 100px;
+       margin-left: 30px;
+}
+.navbar{
+       background-color: brown;
+       padding: 15px 30px;
+       width: 100%;
+       }
+.nav-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        }
+.logo{
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        }
+.nav-menu{
+        display: flex;
+        list-style: none;
+        gap: 40px;
+        }
+.nav-link{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
+        }
+.signup-btn{
+        background-color: grey;
+        color: black;
+       font-size: 30px;
+       border-radius: 20px;
+       }
+.signup-btn:hover{
+        background-color: red;
+        padding: 10px;
+        color: white;
+        }
+a:hover{
+        background-color: white;
+        color: black;
+        padding: 10px;
+        border-radius: 20px;
+        }
+footer{
+       font-size: 10px;
+       }
