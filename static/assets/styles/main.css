@@ -34,7 +34,7 @@ width: 50px;
         }
         th{
         background-color: grey;
-        font-family: Algerian;
+            font-family: Algerian, serif;
         color: black;
         font-size: 30px;
         }

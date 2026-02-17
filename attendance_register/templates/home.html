@@ -1,29 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="../../static/assets/styles/main.css">
-</head>
-<body>
+{% extends 'base.html' %}
+{% block title %}
+    Home
+{% endblock %}
+{% block content %}
 <h2 class="bg-primary">WELCOME HOME</h2><br><br>
-<nav class="navbar">
-    <div class="nav-container">
-    <div class="logo">
-        Event System
-    </div>
-    <ul class="nav-menu">
-        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-        <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
-        <li class="nav-item"><a href="#contact" class="nav-link">Contact Us</a></li>
-        <li class="nav-item"><a href="#event_list" class="nav-link">event_list</a></li>
-        <li class="nav-item"><a href="#event_details" class="nav-link">event_details</a></li>
-    </ul>
-    <div class="nav-button">
-        <button class="signup-btn">Sign Up</button>
-    </div>
-    </div>
-</nav>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.364608380356!2d36.799707462709094!3d-1.268103226812914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f173c0a1f9de7%3A0xad2c84df1f7f2ec8!2sWestlands%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1770986763648!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 <div class="box">
 <form action="">
@@ -35,6 +15,4 @@
     <textarea cols="30" rows="10"></textarea><br><br>
 </form>
 </div>
-<footer> © Copyright EVANS' All Rights Reserved</footer>
-</body>
-</html>
+{% endblock %}

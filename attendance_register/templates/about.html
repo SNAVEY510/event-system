@@ -1,49 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="../../static/assets/styles/bootstrap/css/bootstrap.css">
-   <link rel="stylesheet" href="../../static/assets/styles/main.css">
-</head>
-<body>
+{% extends 'base.html' %}
+{% block title %}
+    About
+{% endblock %}
+{% block content %}
 <h3>ABOUT PAGE</h3>
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur cupiditate deleniti dolor enim et fuga fugiat fugit molestiae nesciunt non nulla officia omnis, qui sint sunt tempore vitae! Ab autem consequuntur doloremque dolorum enim sapiente suscipit vel, voluptas. Ad adipisci, aliquam aliquid culpa delectus dignissimos eligendi id impedit inventore ipsa iste, itaque laboriosam maiores nisi, obcaecati perferendis provident sequi sit temporibus tenetur! Ad aliquid aut blanditiis cum ex, fugit id in ipsa iusto magnam, magni nobis officia, optio pariatur provident sequi sint. Quam quis, repudiandae. Cum dicta dolore maiores similique.</p>
 <h3 class="tab">Available Events</h3>
 <ul>
@@ -57,15 +17,13 @@
 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="" class="d-block w-100" alt="..."><img src="../../static/assets/images/iffany-singer-8813370_1280.png"
-                                                       height="1280" width="1280"/>
+      <img src="../../static/assets/images/iffany-singer-8813370_1280.png" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="" class="d-block w-100" alt="..."><img src="../../static/assets/images/kaazoom-ai-generated-9641410_1280.png" height="951" width="1280"/>
+      <img src="../../static/assets/images/kaazoom-ai-generated-9641410_1280.png" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="" class="d-block w-100" alt="..."><img src="../../static/assets/images/iffany-singer-8813370_1280.png"
-                                                       height="1280" width="1280"/>
+      <img src="../../static/assets/images/iffany-singer-8813370_1280.png" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -77,6 +35,5 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-<footer> © Copyright EVANS' All Rights Reserved</footer>
-</body>
-</html>
+{% endblock %}
+
